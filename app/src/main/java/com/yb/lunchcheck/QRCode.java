@@ -17,13 +17,12 @@ public class QRCode extends AppCompatActivity {
 
         setContentView(R.layout.qrcode);
 
-        TextView tv = findViewById(R.id.textView5);
-        Button btn = findViewById(R.id.button2);
+        TextView tvasdfd = findViewById(R.id.textView5);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        tvasdfd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv.setText("qr");
+                tvasdfd.setText("qr");
                 Intent it = new Intent(QRCode.this,Plate.class);
                 startActivity(it);
                 finish();
