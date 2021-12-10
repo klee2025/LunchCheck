@@ -15,7 +15,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.calculation);
+        setContentView(R.layout.menu);
 
         TextView tv = findViewById(R.id.textView13);
         Button btn = findViewById(R.id.button9);
