@@ -5,47 +5,78 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:textSize="25dp"
-        android:inputType="textPersonName"
-        android:text="Your name" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:textSize="25dp"
-        android:inputType="textPersonName"
-        android:text="Your grade/class" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id = "@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/white"
+            android:hint="Your name" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:textSize="25dp"
-        android:inputType="textPersonName"
-        android:text="Your birthday (mm/dd/yy)" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName9"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:textSize="25dp"
-        android:inputType="textPersonName"
-        android:text="Your school" />
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id = "@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/white"
+            android:hint="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/white"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/schoolInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/white"
+            android:hint="Current school" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/white"
+            android:hint="Password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/submitLogin"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/parakeet"
         android:layout_margin="20dp"
+        android:backgroundTint="@color/parakeet"
         android:text="Submit information" />
 </LinearLayout>

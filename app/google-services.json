@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654944640404",
+    "project_id": "lunch-check-f75da",
+    "storage_bucket": "lunch-check-f75da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654944640404:android:ea9ee39bee60fac0ac0381",
+        "android_client_info": {
+          "package_name": "com.yb.lunchcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654944640404-44t21aj58gmf6mo9sn8oc5b25vs0dg9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCKvkdi2ea8WRouB4eeOKPXYLJd3ACGIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654944640404-44t21aj58gmf6mo9sn8oc5b25vs0dg9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
