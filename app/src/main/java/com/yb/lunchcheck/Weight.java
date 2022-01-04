@@ -22,7 +22,7 @@ public class Weight extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView9);
         EditText editText = findViewById(R.id.editTextNumber2);
         EditText editText1 = findViewById(R.id.editTextNumber3);
-        Button btn = findViewById(R.id.button8);
+        Button btn = findViewById(R.id.button);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

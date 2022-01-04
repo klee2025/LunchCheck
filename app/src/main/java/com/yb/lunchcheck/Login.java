@@ -2,6 +2,7 @@ package com.yb.lunchcheck;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -36,15 +37,9 @@ public class Login extends AppCompatActivity {
         Button btn = findViewById(R.id.submitLogin);
 
         mAuth = FirebaseAuth.getInstance();
-        final String email;
-        String password;
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                email = tv5.getText().toString();
+        String password = String.valueOf(tv4);
+        String email = String.valueOf(tv5.getText());
 
-            }
-        });
 
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -56,6 +51,7 @@ public class Login extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("sign up", "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+
                             //updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
