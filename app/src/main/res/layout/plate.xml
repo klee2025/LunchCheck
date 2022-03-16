@@ -6,29 +6,26 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="360dp"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:text="Enter weight of food plate:" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:ems="10"
-        android:inputType="number" />
-
-    <TextView
         android:id="@+id/textView8"
         android:layout_width="360dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:textSize="20dp"
-        android:text="You must use the same plate everytime." />
+        android:text="Enter your plate information to use the same plate everytime." />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id = "@+id/PlateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight of food plate"
+            android:textSize="15dp"
+            android:background="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button3"
@@ -36,5 +33,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/parakeet"
-        android:text="Button" />
+        android:text="Submit Information" />
 </LinearLayout>

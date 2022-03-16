@@ -1,49 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Menu"
-        android:gravity="center"
-        android:layout_marginBottom="50dp"
-        android:textColor="@color/black" />
+    <ImageView
+        android:id="@+id/MenuLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="50dp"/>
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/MenuLogin"
         android:layout_width="360dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="60dp"
+        android:text="Login page"
+        android:backgroundTint="@color/parakeet"/>
+
+    <Button
+        android:id="@+id/MenuPlate"
+        android:layout_width="360dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
         android:layout_height="60dp"
         android:text="Plate page"
         android:backgroundTint="@color/parakeet"/>
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/MenuWeight"
         android:layout_width="360dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:layout_gravity="center"
         android:layout_height="60dp"
         android:text="Weight page"
         android:backgroundTint="@color/parakeet"/>
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/MenuProgress"
         android:layout_width="360dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:layout_gravity="center"
         android:layout_height="60dp"
         android:text="Progress page"
         android:backgroundTint="@color/parakeet"/>
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/MenuComparison"
         android:layout_width="360dp"
         android:layout_gravity="center"
         android:layout_height="60dp"

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -17,16 +18,26 @@ public class Menu extends AppCompatActivity {
 
         setContentView(R.layout.menu);
 
-        TextView tv = findViewById(R.id.textView13);
-        Button btn = findViewById(R.id.button9);
-        Button btn1 = findViewById(R.id.button10);
-        Button btn2 = findViewById(R.id.button11);
-        Button btn3 = findViewById(R.id.button12);
+        ImageView img = findViewById(R.id.MenuLogo);
+        Button btn = findViewById(R.id.MenuLogin);
+        Button btn1 = findViewById(R.id.MenuPlate);
+        Button btn2 = findViewById(R.id.MenuWeight);
+        Button btn3 = findViewById(R.id.MenuProgress);
+        Button btn4 = findViewById(R.id.MenuComparison);
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv.setText("Menu");
+                Intent it = new Intent(Menu.this,Login.class);
+                startActivity(it);
+                finish();
+            }
+        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent it = new Intent(Menu.this,Plate.class);
                 startActivity(it);
                 finish();
@@ -36,7 +47,6 @@ public class Menu extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv.setText("Menu");
                 Intent it = new Intent(Menu.this,Weight.class);
             }
         });
@@ -44,7 +54,6 @@ public class Menu extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv.setText("Menu");
                 Intent it = new Intent(Menu.this,Progress.class);
             }
         });
@@ -52,7 +61,6 @@ public class Menu extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv.setText("Menu");
                 Intent it = new Intent(Menu.this,Comparison.class);
             }
         });

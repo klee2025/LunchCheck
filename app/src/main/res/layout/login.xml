@@ -79,4 +79,12 @@
         android:layout_margin="20dp"
         android:backgroundTint="@color/parakeet"
         android:text="Submit information" />
+
+    <Button
+        android:id="@+id/googleLogin"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/parakeet"
+        android:text="Log In With Google" />
 </LinearLayout>

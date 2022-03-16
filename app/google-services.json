@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "654944640404",
+    "firebase_url": "https://lunch-check-f75da-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "lunch-check-f75da",
     "storage_bucket": "lunch-check-f75da.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "654944640404-c0odc0gvi2e3q2bhmj5e0423mpg0dsj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yb.lunchcheck",
+            "certificate_hash": "4d77161a06b0a811437150eb1993927304136e71"
+          }
+        },
         {
           "client_id": "654944640404-44t21aj58gmf6mo9sn8oc5b25vs0dg9v.apps.googleusercontent.com",
           "client_type": 3
