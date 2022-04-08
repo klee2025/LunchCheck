@@ -5,45 +5,55 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20dp"
-        android:text="Enter weight of food before:" />
-
-    <EditText
-        android:id="@+id/editTextNumber2"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_marginBottom="15dp"
-        android:layout_gravity="center"
-        android:inputType="number" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/FoodInfo"
+        android:layout_marginTop="150dp"
         android:layout_width="360dp"
-        android:layout_gravity="center"
-        android:textSize="20dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:text="Enter weight of food after:" />
+        android:text="Enter Food Consumption" />
 
-    <EditText
-        android:id="@+id/editTextNumber3"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_gravity="center"
-        android:inputType="number"
-        android:layout_marginBottom="15dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="360dp"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/olive"
-        android:layout_height="wrap_content"
-        android:text="To next page" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="360dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id = "@+id/BeforeInput"
+            android:hint="Enter weight of food before"
+            android:textSize="15dp"
+            android:background="@color/white"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="360dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/AfterInput"
+                android:textSize="15dp"
+                android:hint="Enter weight of food after" />
+
+            <Button
+                android:id="@+id/nextPage"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:backgroundTint="@color/parakeet"
+                android:text="To Next Page" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 </LinearLayout>

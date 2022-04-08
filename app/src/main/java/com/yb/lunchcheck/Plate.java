@@ -18,9 +18,9 @@ public class Plate extends AppCompatActivity {
 
         setContentView(R.layout.plate);
 
-        TextView textView = findViewById(R.id.textView8);
+        TextView textView = findViewById(R.id.enterInfo);
         EditText editText = findViewById(R.id.PlateInput);
-        Button btn = findViewById(R.id.button3);
+        Button btn = findViewById(R.id.submitInfo);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

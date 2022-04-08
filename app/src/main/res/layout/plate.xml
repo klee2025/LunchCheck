@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/enterInfo"
         android:layout_width="360dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/submitInfo"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

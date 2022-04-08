@@ -23,12 +23,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".QRCode">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-        </activity>
-
         <activity android:name=".Plate">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

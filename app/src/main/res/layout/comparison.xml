@@ -11,7 +11,8 @@
         android:layout_gravity="center"
         android:textSize="20dp"
         android:layout_height="wrap_content"
-        android:text="Your rank:" />
+        android:text="Your rank:"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/editTextNumber7"
@@ -28,7 +29,8 @@
         android:layout_gravity="center"
         android:textSize="20dp"
         android:layout_height="wrap_content"
-        android:text="Top performers:" />
+        android:text="Top performers:"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/button7"
