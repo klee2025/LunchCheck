@@ -15,9 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
@@ -33,11 +30,11 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class Login extends AppCompatActivity {
     private FirebaseAuth mAuth;
-
+/*
     ActivityResultLauncher<Intent> activityResultLauncher;
 
     private String TAG = "login activity";
-    private GoogleSignInClient mGoogleSignInClient;
+   // private GoogleSignInClient mGoogleSignInClient;
     FirebaseUser currentUser;
     private static final int RC_SIGN_IN = 9001;
 
@@ -197,5 +194,5 @@ public class Login extends AppCompatActivity {
                 });
     }
 
-
+*/
 }

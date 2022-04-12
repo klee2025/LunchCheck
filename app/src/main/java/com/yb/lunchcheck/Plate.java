@@ -25,8 +25,8 @@ public class Plate extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Plate.this,Scan.class);
-                startActivity(it);
+                //Intent it = new Intent(Plate.this,Scan.class);
+                //startActivity(it);
                 finish();
             }
         });

@@ -15,7 +15,7 @@ public class Comparison extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.calculation);
+        setContentView(R.layout.comparison);
 
         TextView tv = findViewById(R.id.textView11);
         TextView textView = findViewById(R.id.textView12);

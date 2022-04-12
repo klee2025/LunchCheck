@@ -3,16 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/calculation.xml" value="0.335" />
+        <entry key="..\:/Users/pky31/Desktop/LunchCheck/app/src/main/res/layout/comparison.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/calculation.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/comparison.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/menu.xml" value="0.335" />
         <entry key="app/src/main/res/layout/plate.xml" value="0.375" />
         <entry key="app/src/main/res/layout/progress.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/qrcode.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/scan.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/splash.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/weight.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/weight.xml" value="0.12817028985507245" />
       </map>
     </option>
   </component>

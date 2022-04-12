@@ -31,37 +31,40 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent it = new Intent(Menu.this,Login.class);
                 startActivity(it);
-                finish();
-            }
-        });
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(Menu.this,Plate.class);
-                startActivity(it);
-                finish();
             }
         });
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Menu.this,Weight.class);
+                Intent it = new Intent(Menu.this,Plate.class);
+                startActivity(it);
+
             }
         });
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Menu.this,Progress.class);
+                Intent it = new Intent(Menu.this,Weight.class);
+                startActivity(it);
             }
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent it = new Intent(Menu.this,Progress.class);
+                startActivity(it);
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent it = new Intent(Menu.this,Comparison.class);
+                startActivity(it);
             }
         });
     }
